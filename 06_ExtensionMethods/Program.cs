@@ -6,7 +6,7 @@ namespace _06_ExtensionMethods
     {
         static void Main(string[] args)
         {
-            string name = "josé carlos de moura e silva";
+            string name = "maria da silva sauro";
 
             Console.WriteLine(name.FirstLetterOfNameToUpper().Trim());
 
