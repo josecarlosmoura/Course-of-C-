@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using _00_Biblioteca;
 using System.IO;
-using _00_Biblioteca;
 using System.Xml.Serialization;
 
 namespace _01_SerializarXML
 {
     class Program
     {
+        private static Stream streamTeste;
+
         static void Main(string[] args)
         {
             Usuario usuario = new Usuario()
@@ -29,6 +26,14 @@ namespace _01_SerializarXML
             StreamWriter streamWriter = new StreamWriter("C:\\Users\\jose.silva\\Documents\\Arquivos\\C#\\01_SerializarXML.xml");
 
             xmlSerializer.Serialize(streamWriter, usuario);
+
+            //
+            using (StringWriter stream = new StringWriter())
+            {
+                xmlSerializer.Serialize(stream, usuario);
+
+                string xmlSerialized = stream.ToString();              
+            }
         }
     }
 }

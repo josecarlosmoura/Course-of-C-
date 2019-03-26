@@ -4,9 +4,10 @@ using System.Text;
 
 namespace _05_Generics.Entities
 {
-    public class Dog
+    public class User
     {
         public string Name { get; set; }
-        public string MyProperty { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

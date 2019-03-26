@@ -4,7 +4,9 @@ using System.Text;
 
 namespace _05_Generics.Entities
 {
-    class People
+    class House
     {
+        public string City { get; set; }
+        public string Adress { get; set; }
     }
 }
