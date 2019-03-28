@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Linq_Join", "08_Linq_Joi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Linq_GroupBy_Distinct", "09_Linq_GroupBy_Distinct\09_Linq_GroupBy_Distinct.csproj", "{E0DD9D65-7BB0-4888-BA64-40EC206BF35F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Delegates", "10_Delegates\10_Delegates.csproj", "{E9AF3E2C-3053-4803-ACF6-9ACEA01D4834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Delegates_02", "11_Delegates_02\11_Delegates_02.csproj", "{2522C8DE-6484-4656-9381-2D55CEA3389B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{E0DD9D65-7BB0-4888-BA64-40EC206BF35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0DD9D65-7BB0-4888-BA64-40EC206BF35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0DD9D65-7BB0-4888-BA64-40EC206BF35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AF3E2C-3053-4803-ACF6-9ACEA01D4834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AF3E2C-3053-4803-ACF6-9ACEA01D4834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AF3E2C-3053-4803-ACF6-9ACEA01D4834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AF3E2C-3053-4803-ACF6-9ACEA01D4834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2522C8DE-6484-4656-9381-2D55CEA3389B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2522C8DE-6484-4656-9381-2D55CEA3389B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2522C8DE-6484-4656-9381-2D55CEA3389B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2522C8DE-6484-4656-9381-2D55CEA3389B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

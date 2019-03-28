@@ -6,7 +6,7 @@ namespace _01_SerializarXML
 {
     class Program
     {
-        private static Stream streamTeste;
+        private static readonly Stream streamTeste;
 
         static void Main(string[] args)
         {
